@@ -1,0 +1,16 @@
+PODS:
+  - GHWPodDemo (0.1.0)
+
+DEPENDENCIES:
+  - GHWPodDemo (from `../`)
+
+EXTERNAL SOURCES:
+  GHWPodDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GHWPodDemo: 1c9babb106b436257328ed92b1d424498bcabc8b
+
+PODFILE CHECKSUM: bdca269b817f3482c1abe91f73870ed7b4c2fc18
+
+COCOAPODS: 1.7.2
