@@ -29,14 +29,14 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'GHWPodDemo/Classes/**/*'
+  s.vendored_frameworks = 'Products/*.framework'
+  #s.source_files = 'GHWPodDemo/Classes/**/*'
   
   # s.resource_bundles = {
   #   'GHWPodDemo' => ['GHWPodDemo/Assets/*.png']
   # }
 
-  s.public_header_files = 'GHWPodDemo/Classes/**/*.h'
+ # s.public_header_files = 'GHWPodDemo/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

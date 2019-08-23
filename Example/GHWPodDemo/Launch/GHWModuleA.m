@@ -29,4 +29,13 @@ GHW_FUNCTION_EXPORT(Stage_B)() {
     printf("ModuleA:Stage_B");
 }
 
+- (void)testFail {
+    NSArray *array = @[@"1"];
+    NSLog(@"test = %@", array[2]);
+}
+
+- (void)testSuccess {
+    NSLog(@"success");
+}
+
 @end
