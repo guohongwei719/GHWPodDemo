@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "GHWExport.h"
 
 FOUNDATION_EXPORT double GHWPodDemoVersionNumber;
 FOUNDATION_EXPORT const unsigned char GHWPodDemoVersionString[];

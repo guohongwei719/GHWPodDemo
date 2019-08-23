@@ -10,8 +10,14 @@
 
 @implementation GHWAppDelegate
 
+- (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [[GHWExport sharedInstance] executeArrayForKey:@"Stage_A"];
+    return YES;
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [[GHWExport sharedInstance] executeArrayForKey:@"Stage_B"];
     // Override point for customization after application launch.
     return YES;
 }

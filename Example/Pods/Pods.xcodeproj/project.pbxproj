@@ -8,15 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		023CD47DB3D1646EFEC24DB79944B041 /* Pods-GHWPodDemo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 582A60583169687011FC0BF2024C4D79 /* Pods-GHWPodDemo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CF2409D72006652573704408903C880 /* GHWPodDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 739B44CD587633BE6799BA5DDDCA5749 /* GHWPodDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34D86FA3334C6505FF5F37F5D9305DA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		518608647A43549029F3532D108962E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		5B57D08730A0067E9E445DAC69B7B27B /* Pods-GHWPodDemo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BDC00B7EB018CD83CEFFB38005FAD7 /* Pods-GHWPodDemo_Tests-dummy.m */; };
-		732FCD742999B7CEAE95422615A8C326 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		808B4328D199FDBC5440C4D3814E2FDD /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA316C1D4244E694685A4F9FCE71CC0 /* ReplaceMe.m */; };
+		5C5F9F2F8A2385654928534E034C1D28 /* GHWPodDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED54EBE9F7E92B07B6D95284BB65A725 /* GHWPodDemo-dummy.m */; };
+		5D1164A22A7C8B276CF1ACF34910D836 /* GHWExport.m in Sources */ = {isa = PBXBuildFile; fileRef = D41AE2B7B63AE392258EEA7D1567251D /* GHWExport.m */; };
 		81688DE7D7EFC6415544977610007182 /* Pods-GHWPodDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB400D1F9BD512C99A526C3C011AF3AD /* Pods-GHWPodDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		894D705E35511143A5F67978FFBE7E17 /* GHWPodDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62DBA815BD8F0446849094714D8B2194 /* GHWPodDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D356EA815D4C3FB84804A075CD282B38 /* Pods-GHWPodDemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E07E0D54306C161944EDDF6932E0724 /* Pods-GHWPodDemo_Example-dummy.m */; };
-		D928A9FA43D0632EC0912C38DD034843 /* GHWPodDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26241836B86D15DBBC0AE49ECA2769BE /* GHWPodDemo-dummy.m */; };
+		D63B2574301C050568F2CAD3CEADE734 /* GHWExport.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DBBC75F313D95956C0FB38728445CE6 /* GHWExport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E19A7BACC4903D9612CD3F534D13FD95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,36 +40,37 @@
 /* Begin PBXFileReference section */
 		0853C7D5F44CD6B69C59D4B8F6842D2C /* Pods-GHWPodDemo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GHWPodDemo_Example.modulemap"; sourceTree = "<group>"; };
 		09C812C03F9AFA7CD48CDCEAD4781F93 /* Pods-GHWPodDemo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GHWPodDemo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		14712CEC556E2BBE46AA4B4A9CFF34F1 /* GHWPodDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GHWPodDemo-Info.plist"; sourceTree = "<group>"; };
 		16DBC11AFA6110EA3DBADC1B4241B40A /* Pods-GHWPodDemo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GHWPodDemo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1B84FEDE0CD05BED899DB9BE971386E5 /* Pods-GHWPodDemo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GHWPodDemo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		22F743291574EA20747009374603CADC /* Pods-GHWPodDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GHWPodDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		23E7EFE4B75BFE44903C90B554CD1BE1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		26241836B86D15DBBC0AE49ECA2769BE /* GHWPodDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GHWPodDemo-dummy.m"; sourceTree = "<group>"; };
 		2C9B71C5E8B34F94CCDB4218BEB71FEE /* Pods-GHWPodDemo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GHWPodDemo_Example-frameworks.sh"; sourceTree = "<group>"; };
 		320924F7CDAAD300A36F1342E664C8DF /* GHWPodDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GHWPodDemo.framework; path = GHWPodDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3BCA6EC35807E86A3AD32024515B036D /* GHWPodDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GHWPodDemo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		45BED6540BE2F42CB2633701255B3205 /* Pods-GHWPodDemo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GHWPodDemo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4DBBC75F313D95956C0FB38728445CE6 /* GHWExport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHWExport.h; path = GHWPodDemo/Classes/GHWExport.h; sourceTree = "<group>"; };
 		50828F0C29418B32D9883A6ED4F035E9 /* Pods-GHWPodDemo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GHWPodDemo_Example-Info.plist"; sourceTree = "<group>"; };
 		582A60583169687011FC0BF2024C4D79 /* Pods-GHWPodDemo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GHWPodDemo_Tests-umbrella.h"; sourceTree = "<group>"; };
-		5E0165C38C289A960B8AD2C01B816B64 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5F3BBD4C949E44F5286364100BD97AED /* GHWPodDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GHWPodDemo.xcconfig; sourceTree = "<group>"; };
 		617EA1AA918BFC6B17816BCCEC0330DE /* Pods-GHWPodDemo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GHWPodDemo_Tests-Info.plist"; sourceTree = "<group>"; };
+		62DBA815BD8F0446849094714D8B2194 /* GHWPodDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GHWPodDemo-umbrella.h"; sourceTree = "<group>"; };
+		680AEC85267E49947CB822306DF77847 /* GHWPodDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GHWPodDemo-Info.plist"; sourceTree = "<group>"; };
 		69BDC00B7EB018CD83CEFFB38005FAD7 /* Pods-GHWPodDemo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GHWPodDemo_Tests-dummy.m"; sourceTree = "<group>"; };
 		6B020EF41D78B1ECE8F3CACDA30D23D8 /* Pods_GHWPodDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GHWPodDemo_Example.framework; path = "Pods-GHWPodDemo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		739B44CD587633BE6799BA5DDDCA5749 /* GHWPodDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GHWPodDemo-umbrella.h"; sourceTree = "<group>"; };
+		74859092B31118F8522F4F78AEF695C8 /* GHWPodDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GHWPodDemo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7750145C3812E5EAA81F31A298A2F3FC /* Pods-GHWPodDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GHWPodDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7A0C3539AF638D7BE8AC93F4060EC516 /* Pods-GHWPodDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GHWPodDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7E07E0D54306C161944EDDF6932E0724 /* Pods-GHWPodDemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GHWPodDemo_Example-dummy.m"; sourceTree = "<group>"; };
-		9A6A4C505D8A8649AA90BD1D5534711C /* GHWPodDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GHWPodDemo.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A64DC0FC15D5086766FA5A347991980D /* GHWPodDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GHWPodDemo.modulemap; sourceTree = "<group>"; };
 		A73591044D0B3A3D09F5EF6749E7AA7B /* Pods_GHWPodDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GHWPodDemo_Tests.framework; path = "Pods-GHWPodDemo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF64AB4572A745395BF70375C7314012 /* GHWPodDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GHWPodDemo-prefix.pch"; sourceTree = "<group>"; };
 		B0CABB9C9E2296C91B035F599FBF5B63 /* Pods-GHWPodDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GHWPodDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B450364D447138F6AE2732E6651EF1B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B8A82298DFFD3DB6A1CD7A2E7818E950 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BD64F0D7604963A6402EDCE57B01BEE8 /* GHWPodDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GHWPodDemo.modulemap; sourceTree = "<group>"; };
+		D41AE2B7B63AE392258EEA7D1567251D /* GHWExport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHWExport.m; path = GHWPodDemo/Classes/GHWExport.m; sourceTree = "<group>"; };
 		E6F0546BD31AEE8FFBDB3FC691315442 /* Pods-GHWPodDemo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GHWPodDemo_Tests.modulemap"; sourceTree = "<group>"; };
 		EB400D1F9BD512C99A526C3C011AF3AD /* Pods-GHWPodDemo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GHWPodDemo_Example-umbrella.h"; sourceTree = "<group>"; };
-		F4922883DD645D95738CAAF15E914BA6 /* GHWPodDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GHWPodDemo-prefix.pch"; sourceTree = "<group>"; };
-		FAA316C1D4244E694685A4F9FCE71CC0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = GHWPodDemo/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		ED54EBE9F7E92B07B6D95284BB65A725 /* GHWPodDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GHWPodDemo-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,11 +82,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B28DC59569AE20F4A2A98FB1C3290462 /* Frameworks */ = {
+		8B7991B0250EA2B3E75AC269B502B031 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				732FCD742999B7CEAE95422615A8C326 /* Foundation.framework in Frameworks */,
+				E19A7BACC4903D9612CD3F534D13FD95 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +101,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12EBC303AC96B87208A2123BBDB512C9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				74859092B31118F8522F4F78AEF695C8 /* GHWPodDemo.podspec */,
+				B450364D447138F6AE2732E6651EF1B7 /* LICENSE */,
+				B8A82298DFFD3DB6A1CD7A2E7818E950 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		180325A9C70EFDF01C73A6C118470A05 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +119,14 @@
 				A73591044D0B3A3D09F5EF6749E7AA7B /* Pods_GHWPodDemo_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		2EA9063155AAAA6E6EC6A7B64C7A037C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADA40815A536E1B62334A584DF97D222 /* GHWPodDemo */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		6338CB755E42F690BA40A4C7FBAF46A3 /* Pods-GHWPodDemo_Tests */ = {
@@ -134,26 +154,30 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7225A35BA5C04001A74921C09BE2FA77 /* Support Files */ = {
+		72FE91F1038DF81D10C6CCF0780AF7B8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A64DC0FC15D5086766FA5A347991980D /* GHWPodDemo.modulemap */,
-				9A6A4C505D8A8649AA90BD1D5534711C /* GHWPodDemo.xcconfig */,
-				26241836B86D15DBBC0AE49ECA2769BE /* GHWPodDemo-dummy.m */,
-				14712CEC556E2BBE46AA4B4A9CFF34F1 /* GHWPodDemo-Info.plist */,
-				F4922883DD645D95738CAAF15E914BA6 /* GHWPodDemo-prefix.pch */,
-				739B44CD587633BE6799BA5DDDCA5749 /* GHWPodDemo-umbrella.h */,
+				BD64F0D7604963A6402EDCE57B01BEE8 /* GHWPodDemo.modulemap */,
+				5F3BBD4C949E44F5286364100BD97AED /* GHWPodDemo.xcconfig */,
+				ED54EBE9F7E92B07B6D95284BB65A725 /* GHWPodDemo-dummy.m */,
+				680AEC85267E49947CB822306DF77847 /* GHWPodDemo-Info.plist */,
+				AF64AB4572A745395BF70375C7314012 /* GHWPodDemo-prefix.pch */,
+				62DBA815BD8F0446849094714D8B2194 /* GHWPodDemo-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/GHWPodDemo";
 			sourceTree = "<group>";
 		};
-		A6D2C6BE7B117334921C8A7BCB9A1648 /* Development Pods */ = {
+		ADA40815A536E1B62334A584DF97D222 /* GHWPodDemo */ = {
 			isa = PBXGroup;
 			children = (
-				CAEE9EA63831FA8ABA5C8C09FAF30223 /* GHWPodDemo */,
+				4DBBC75F313D95956C0FB38728445CE6 /* GHWExport.h */,
+				D41AE2B7B63AE392258EEA7D1567251D /* GHWExport.m */,
+				12EBC303AC96B87208A2123BBDB512C9 /* Pod */,
+				72FE91F1038DF81D10C6CCF0780AF7B8 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = GHWPodDemo;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		C00A3F25092E2F7DF73E5808F9E10006 /* Pods-GHWPodDemo_Example */ = {
@@ -181,22 +205,11 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		CAEE9EA63831FA8ABA5C8C09FAF30223 /* GHWPodDemo */ = {
-			isa = PBXGroup;
-			children = (
-				FAA316C1D4244E694685A4F9FCE71CC0 /* ReplaceMe.m */,
-				D265FC3AC3C77DBFAD971BAB226EDE3F /* Pod */,
-				7225A35BA5C04001A74921C09BE2FA77 /* Support Files */,
-			);
-			name = GHWPodDemo;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A6D2C6BE7B117334921C8A7BCB9A1648 /* Development Pods */,
+				2EA9063155AAAA6E6EC6A7B64C7A037C /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				180325A9C70EFDF01C73A6C118470A05 /* Products */,
 				63F182C935627AFE49A6EC37FF55C80E /* Targets Support Files */,
@@ -211,16 +224,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D265FC3AC3C77DBFAD971BAB226EDE3F /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				3BCA6EC35807E86A3AD32024515B036D /* GHWPodDemo.podspec */,
-				5E0165C38C289A960B8AD2C01B816B64 /* LICENSE */,
-				23E7EFE4B75BFE44903C90B554CD1BE1 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -232,11 +235,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		669E24FFFE9CC5C29BFBD7938A1ACBDA /* Headers */ = {
+		7BAA32E58AC1F5AFACB5D965C2D2D6DF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CF2409D72006652573704408903C880 /* GHWPodDemo-umbrella.h in Headers */,
+				D63B2574301C050568F2CAD3CEADE734 /* GHWExport.h in Headers */,
+				894D705E35511143A5F67978FFBE7E17 /* GHWPodDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,12 +276,12 @@
 		};
 		3A3E9F5B1C82792A50136DE4EDF3E60A /* GHWPodDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A0AB80BA9F526B954A9C51A45B5290F2 /* Build configuration list for PBXNativeTarget "GHWPodDemo" */;
+			buildConfigurationList = 1849515B8C1D4B1D3E4B13418E353488 /* Build configuration list for PBXNativeTarget "GHWPodDemo" */;
 			buildPhases = (
-				669E24FFFE9CC5C29BFBD7938A1ACBDA /* Headers */,
-				68FE5E86913FE872A69323F9E1D96702 /* Sources */,
-				B28DC59569AE20F4A2A98FB1C3290462 /* Frameworks */,
-				33F77A2920A382EAAA9698377478D3A4 /* Resources */,
+				7BAA32E58AC1F5AFACB5D965C2D2D6DF /* Headers */,
+				3237135ABEF0F415244619FD3B0BD2F0 /* Sources */,
+				8B7991B0250EA2B3E75AC269B502B031 /* Frameworks */,
+				B9FE683DAC5D74C2007D4BFD9BC5F8D5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -343,14 +347,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		33F77A2920A382EAAA9698377478D3A4 /* Resources */ = {
+		3FC3228F28B99CA60FEDB29E291CE45A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3FC3228F28B99CA60FEDB29E291CE45A /* Resources */ = {
+		B9FE683DAC5D74C2007D4BFD9BC5F8D5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -368,20 +372,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3237135ABEF0F415244619FD3B0BD2F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D1164A22A7C8B276CF1ACF34910D836 /* GHWExport.m in Sources */,
+				5C5F9F2F8A2385654928534E034C1D28 /* GHWPodDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64A5807186A4ABBB9CBC73C5B7356AC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5B57D08730A0067E9E445DAC69B7B27B /* Pods-GHWPodDemo_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		68FE5E86913FE872A69323F9E1D96702 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D928A9FA43D0632EC0912C38DD034843 /* GHWPodDemo-dummy.m in Sources */,
-				808B4328D199FDBC5440C4D3814E2FDD /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +439,69 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		1E553A28633A98FA2C75D948DE4325B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F3BBD4C949E44F5286364100BD97AED /* GHWPodDemo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GHWPodDemo/GHWPodDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GHWPodDemo/GHWPodDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GHWPodDemo/GHWPodDemo.modulemap";
+				PRODUCT_MODULE_NAME = GHWPodDemo;
+				PRODUCT_NAME = GHWPodDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		22E4A94BB7676A2A9D905FFB138ECD52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F3BBD4C949E44F5286364100BD97AED /* GHWPodDemo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GHWPodDemo/GHWPodDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GHWPodDemo/GHWPodDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GHWPodDemo/GHWPodDemo.modulemap";
+				PRODUCT_MODULE_NAME = GHWPodDemo;
+				PRODUCT_NAME = GHWPodDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -493,38 +560,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		553BAE92946C566C30798216DF95B95F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A6A4C505D8A8649AA90BD1D5534711C /* GHWPodDemo.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GHWPodDemo/GHWPodDemo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GHWPodDemo/GHWPodDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GHWPodDemo/GHWPodDemo.modulemap";
-				PRODUCT_MODULE_NAME = GHWPodDemo;
-				PRODUCT_NAME = GHWPodDemo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -589,37 +624,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		8832F0BD68110C03C946E4B59BA741C2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A6A4C505D8A8649AA90BD1D5534711C /* GHWPodDemo.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GHWPodDemo/GHWPodDemo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GHWPodDemo/GHWPodDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GHWPodDemo/GHWPodDemo.modulemap";
-				PRODUCT_MODULE_NAME = GHWPodDemo;
-				PRODUCT_NAME = GHWPodDemo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -727,6 +731,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1849515B8C1D4B1D3E4B13418E353488 /* Build configuration list for PBXNativeTarget "GHWPodDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E553A28633A98FA2C75D948DE4325B2 /* Debug */,
+				22E4A94BB7676A2A9D905FFB138ECD52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		44BCAE0D2A60E504F1670F21EBD68ED9 /* Build configuration list for PBXNativeTarget "Pods-GHWPodDemo_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -750,15 +763,6 @@
 			buildConfigurations = (
 				D08ACD0C50BE3459119A034DBE0E4B7B /* Debug */,
 				B9A7B0985B95DE83F66447C9AB0F562B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A0AB80BA9F526B954A9C51A45B5290F2 /* Build configuration list for PBXNativeTarget "GHWPodDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8832F0BD68110C03C946E4B59BA741C2 /* Debug */,
-				553BAE92946C566C30798216DF95B95F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

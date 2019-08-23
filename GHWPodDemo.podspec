@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'GHWPodDemo'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of GHWPodDemo.'
+  s.summary          = 'my demo pod'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'GHWPodDemo' => ['GHWPodDemo/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'GHWPodDemo/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

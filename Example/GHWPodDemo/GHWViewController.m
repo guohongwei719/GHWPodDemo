@@ -7,7 +7,7 @@
 //
 
 #import "GHWViewController.h"
-
+#import <GHWExport.h>
 @interface GHWViewController ()
 
 @end
@@ -18,7 +18,14 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [[GHWExport sharedInstance] testFail];
 }
+
+__attribute__((constructor))
+void premain() {
+    [[GHWExport sharedInstance] executeArrayForKey:@"pre_main"];
+}
+
 
 - (void)didReceiveMemoryWarning
 {
